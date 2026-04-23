@@ -1,0 +1,175 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36">
+  <diagram id="org" name="Оргструктура">
+    <mxGraphModel dx="2037" dy="1246" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=13;fontStyle=1" value="Organizational chart" vertex="1">
+          <mxGeometry height="48" width="800" x="400" y="12" as="geometry" />
+        </mxCell>
+        <mxCell id="ceo" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontStyle=1;fontSize=12;" value="Руководитель сервиса доставки еды" vertex="1">
+          <mxGeometry height="70" width="240" x="680" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="cto" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=11;" value="CTO" vertex="1">
+          <mxGeometry height="65" width="200" x="40" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="cpo" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=11;" value="Chief Product Officer" vertex="1">
+          <mxGeometry height="65" width="200" x="280" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="cfo" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=11;" value="Chief Financial Officer" vertex="1">
+          <mxGeometry height="65" width="200" x="520" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="cbdo" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=11;" value="&lt;br&gt;Chief Business Development Officer&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="65" width="220" x="760" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="coo" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=11;" value="&lt;br&gt;Chief Operating Officer&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="65" width="220" x="1020" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="cto_arch" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=10;" value="Архитектор решений" vertex="1">
+          <mxGeometry height="50" width="130" x="140" y="295" as="geometry" />
+        </mxCell>
+        <mxCell id="cto_tl" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=10;fontStyle=1;" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;Team Lead&lt;/span&gt;" vertex="1">
+          <mxGeometry height="50" width="120" x="10" y="295" as="geometry" />
+        </mxCell>
+        <mxCell id="cto_be1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#666666;fontSize=10;" value="BackEnd Developer" vertex="1">
+          <mxGeometry height="36" width="115" x="15" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="cto_be2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=10;" value="BackEnd Developer" vertex="1">
+          <mxGeometry height="36" width="115" x="150" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="cto_mob" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#666666;fontSize=10;" value="Mobile Developer&#xa;(iOS / Android)" vertex="1">
+          <mxGeometry height="36" width="250" x="15" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="cto_qa" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#666666;fontSize=10;" value="QA" vertex="1">
+          <mxGeometry height="36" width="250" x="15" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="cto_sup" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=10;fontStyle=1;" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;Support Lead&lt;/span&gt;" vertex="1">
+          <mxGeometry height="50" width="200" x="200" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="cto_l1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=10;" value="L1 Support" vertex="1">
+          <mxGeometry height="45" width="200" x="200" y="670" as="geometry" />
+        </mxCell>
+        <mxCell id="cpo_pm" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=10;" value="Product Manager" vertex="1">
+          <mxGeometry height="40" width="100" x="280" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="cpo_an" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=10;" value="Product Analyst" vertex="1">
+          <mxGeometry height="45" width="110" x="400" y="297.5" as="geometry" />
+        </mxCell>
+        <mxCell id="cpo_ux" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=10;" value="UX/UI Designer" vertex="1">
+          <mxGeometry height="40" width="110" x="400" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="cpo_ds" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=10;" value="Data / BI" vertex="1">
+          <mxGeometry height="45" width="90" x="290" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="cfo_acc" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=10;" value="Accountant" vertex="1">
+          <mxGeometry height="45" width="200" x="520" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="cbd_sales" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=10;" value="Sales (B2B)" vertex="1">
+          <mxGeometry height="50" width="110" x="760" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="cbd_mkt" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=10;fontStyle=1;" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;Marketer&lt;/span&gt;" vertex="1">
+          <mxGeometry height="45" width="100" x="880" y="302.5" as="geometry" />
+        </mxCell>
+        <mxCell id="cbd_smm" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=10;" value="SMM" vertex="1">
+          <mxGeometry height="36" width="100" x="760" y="377" as="geometry" />
+        </mxCell>
+        <mxCell id="cbd_copy" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=10;" value="Copywriter" vertex="1">
+          <mxGeometry height="36" width="100" x="760" y="485" as="geometry" />
+        </mxCell>
+        <mxCell id="cbd_cont" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=10;" value="Content maker" vertex="1">
+          <mxGeometry height="33" width="100" x="880" y="377" as="geometry" />
+        </mxCell>
+        <mxCell id="coo_log" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=10;fontStyle=1;" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;Logistics&lt;/span&gt;" vertex="1">
+          <mxGeometry height="50" width="220" x="1160" y="297.5" as="geometry" />
+        </mxCell>
+        <mxCell id="coo_disp" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=10;" value="Диспетчеры" vertex="1">
+          <mxGeometry height="45" width="220" x="1160" y="375" as="geometry" />
+        </mxCell>
+        <mxCell id="coo_hr" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=10;" value="HR" vertex="1">
+          <mxGeometry height="45" width="130" x="1020" y="302.5" as="geometry" />
+        </mxCell>
+        <mxCell id="ec1" edge="1" parent="1" source="ceo" style="fillColor=#FFFFFF;strokeColor=#000000;" target="cto">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ec2" edge="1" parent="1" source="ceo" style="fillColor=#FFFFFF;strokeColor=#000000;" target="cpo">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ec3" edge="1" parent="1" source="ceo" style="fillColor=#FFFFFF;strokeColor=#000000;" target="cfo">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ec4" edge="1" parent="1" source="ceo" style="fillColor=#FFFFFF;strokeColor=#000000;" target="cbdo">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ec5" edge="1" parent="1" source="ceo" style="fillColor=#FFFFFF;strokeColor=#000000;" target="coo">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="et1" edge="1" parent="1" source="cto" style="fillColor=#FFFFFF;strokeColor=#000000;" target="cto_arch">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="et2" edge="1" parent="1" source="cto" style="fillColor=#FFFFFF;strokeColor=#000000;" target="cto_tl">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="et3" edge="1" parent="1" source="cto_tl" style="fillColor=#FFFFFF;strokeColor=#000000;" target="cto_be1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="et4" edge="1" parent="1" source="cto_tl" style="fillColor=#FFFFFF;strokeColor=#000000;" target="cto_be2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="et5" edge="1" parent="1" source="cto_tl" style="fillColor=#FFFFFF;strokeColor=#000000;" target="cto_mob">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="et6" edge="1" parent="1" source="cto_tl" style="fillColor=#FFFFFF;strokeColor=#000000;" target="cto_qa">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="et8" edge="1" parent="1" source="cto_sup" style="fillColor=#FFFFFF;strokeColor=#000000;" target="cto_l1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ep1" edge="1" parent="1" source="cpo" style="fillColor=#FFFFFF;strokeColor=#000000;" target="cpo_pm">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ep2" edge="1" parent="1" source="cpo" style="fillColor=#FFFFFF;strokeColor=#000000;" target="cpo_an">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ep3" edge="1" parent="1" source="cpo" style="fillColor=#FFFFFF;strokeColor=#000000;" target="cpo_ux">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ep4" edge="1" parent="1" source="cpo" style="fillColor=#FFFFFF;strokeColor=#000000;" target="cpo_ds">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ef1" edge="1" parent="1" source="cfo" style="fillColor=#FFFFFF;strokeColor=#000000;" target="cfo_acc">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eb1" edge="1" parent="1" source="cbdo" style="fillColor=#FFFFFF;strokeColor=#000000;" target="cbd_sales">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eb2" edge="1" parent="1" source="cbdo" style="fillColor=#FFFFFF;strokeColor=#000000;" target="cbd_mkt">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eb3" edge="1" parent="1" source="cbd_mkt" style="fillColor=#FFFFFF;strokeColor=#000000;" target="cbd_smm">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eb4" edge="1" parent="1" source="cbd_mkt" style="fillColor=#FFFFFF;strokeColor=#000000;" target="cbd_cont">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eb5" edge="1" parent="1" source="cbd_smm" style="fillColor=#FFFFFF;strokeColor=#000000;" target="cbd_copy">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eo2" edge="1" parent="1" source="coo" style="fillColor=#FFFFFF;strokeColor=#000000;" target="coo_log">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eo3" edge="1" parent="1" source="coo_log" style="fillColor=#FFFFFF;strokeColor=#000000;" target="coo_disp">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eo4" edge="1" parent="1" source="coo" style="fillColor=#FFFFFF;strokeColor=#000000;" target="coo_hr">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9TgiBkT5BJM-b53u1eXA-1" edge="1" parent="1" source="cto" style="endArrow=classic;html=1;rounded=0;exitX=0.95;exitY=0.923;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#FFFFFF;strokeColor=#000000;" target="cto_sup" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="220" y="300" as="sourcePoint" />
+            <mxPoint x="290" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

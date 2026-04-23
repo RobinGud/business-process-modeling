@@ -1,0 +1,34 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Страница-1" id="dk90iIHjYWCKe38iax7a">
+    <mxGraphModel dx="1461" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="AHIF9mEOBqgMUNEAxxCQ-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCFFCC;" value="PLAN&lt;div&gt;&lt;br&gt;&lt;div&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-language-override: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-variant-emoji: normal; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;Helvetica Neue&amp;quot;; text-align: start;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;доля опоздавших доставок — с A% до B%;&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="280" width="280" x="40" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AHIF9mEOBqgMUNEAxxCQ-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F19C99;" value="CHECK&lt;div&gt;Среднее время доставки&lt;/div&gt;&lt;div&gt;Отывы клиентов&lt;/div&gt;" vertex="1">
+          <mxGeometry height="280" width="280" x="40" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="AHIF9mEOBqgMUNEAxxCQ-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFD966;" value="DO&lt;div&gt;Повышать коэффициент в час пик&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-family: &amp;quot;Helvetica Neue&amp;quot;; font-size: 13px; text-align: start; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Выдать кукрьерам бесплатные промокоды на самокаты в яндекс ГО;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="280" width="280" x="320" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AHIF9mEOBqgMUNEAxxCQ-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#7EA6E0;" value="ACT&lt;div&gt;Давать бонус для курьеров без опозданий&amp;nbsp;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="280" width="280" x="320" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="AHIF9mEOBqgMUNEAxxCQ-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#97D077;" value="PLAN 1&lt;div&gt;Добавление эксклюзивного меню в ресторанах&lt;/div&gt;&lt;div&gt;PLAN 2&lt;/div&gt;&lt;div&gt;Расширение пула ресторанов, запуск маркетинга&lt;/div&gt;" vertex="1">
+          <mxGeometry height="280" width="320" x="760" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AHIF9mEOBqgMUNEAxxCQ-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFB570;" value="DO 1&lt;div&gt;Поиск тестовых ресторанов, составление нового меню, формирование пула тестовых пользователей&lt;/div&gt;&lt;div&gt;DO 2&lt;/div&gt;&lt;div&gt;Запуск промокодов, розыгрыш в соц сетях&lt;/div&gt;" vertex="1">
+          <mxGeometry height="280" width="320" x="1081" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AHIF9mEOBqgMUNEAxxCQ-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#7EA6E0;" value="CHECK 1&lt;div&gt;Анализируем количесвто продаж эксклюзивного меню, общее сумму закаов в тестовых ресторанах, динамику прихода пользователей в приложение&lt;/div&gt;&lt;div&gt;CHECK 2&lt;/div&gt;&lt;div&gt;Сейм&lt;/div&gt;" vertex="1">
+          <mxGeometry height="280" width="320" x="760" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="AHIF9mEOBqgMUNEAxxCQ-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#EA6B66;" value="ACT 1&lt;div&gt;Доработка меню&lt;/div&gt;&lt;div&gt;ACT 2&lt;/div&gt;&lt;div&gt;На основе анализа решаем успешный проект или нет. Готовим отчет наверх&lt;/div&gt;" vertex="1">
+          <mxGeometry height="280" width="320" x="1081" y="360" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,137 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0">
+  <diagram id="detail" name="ЕРС — детализация">
+    <mxGraphModel dx="1798" dy="1246" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="tt" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=13;fontStyle=1" value="Детализация: от подтверждения рестораном до передачи заказа курьеру" vertex="1">
+          <mxGeometry height="30" width="700" x="40" y="15" as="geometry" />
+        </mxCell>
+        <mxCell id="e0" parent="1" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#EA6B66;strokeColor=#EA6B66;" value="Событие:&#xa;Ресторан подтвердил заказ" vertex="1">
+          <mxGeometry height="70" width="200" x="420" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="and1" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FFFFFF;fontColor=#FFFFFF;strokeColor=#000000;" value="&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;И&lt;/font&gt;" vertex="1">
+          <mxGeometry height="70" width="70" x="485" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="fk" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#97D077;strokeColor=#97D077;" value="Функция:&lt;br&gt;Планирование времени&lt;br&gt;приготовления, передача&lt;br&gt;заказа на кухню" vertex="1">
+          <mxGeometry height="80" width="220" x="120" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="fl" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#97D077;strokeColor=#97D077;" value="Функция:&lt;br&gt;Поиск курьера в зоне" vertex="1">
+          <mxGeometry height="80" width="220" x="410" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="ek" parent="1" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#EA6B66;strokeColor=#EA6B66;" value="Событие:&#xa;Заказ в работе на кухне" vertex="1">
+          <mxGeometry height="70" width="180" x="150" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="el" parent="1" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#EA6B66;strokeColor=#EA6B66;" value="Событие:&#xa;Курьер назначен" vertex="1">
+          <mxGeometry height="70" width="180" x="430" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="e_on" parent="1" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#EA6B66;strokeColor=#EA6B66;" value="Событие:&#xa;В срок" vertex="1">
+          <mxGeometry height="60" width="120" x="40" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="e_late" parent="1" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#EA6B66;strokeColor=#EA6B66;" value="Событие:&#xa;Задержка кухни" vertex="1">
+          <mxGeometry height="60" width="140" x="270" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="e_ready" parent="1" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#EA6B66;strokeColor=#EA6B66;" value="Событие:&lt;br&gt;Заказ готов к выдаче&lt;br&gt;курьеру" vertex="1">
+          <mxGeometry height="70" width="200" x="110" y="780" as="geometry" />
+        </mxCell>
+        <mxCell id="and2" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FAFAFA;fontColor=#FFFFFF;strokeColor=#000000;" value="&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;И&lt;/font&gt;" vertex="1">
+          <mxGeometry height="70" width="70" x="480" y="820" as="geometry" />
+        </mxCell>
+        <mxCell id="fc" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#97D077;strokeColor=#97D077;" value="Функция:&lt;br&gt;Прибытие к ресторану,&lt;br&gt;контроль готовности,&lt;br&gt;получение заказа" vertex="1">
+          <mxGeometry height="80" width="220" x="405" y="920" as="geometry" />
+        </mxCell>
+        <mxCell id="e_out" parent="1" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#EA6B66;strokeColor=#EA6B66;" value="Событие:&#xa;Заказ передан курьеру" vertex="1">
+          <mxGeometry height="70" width="200" x="415" y="1040" as="geometry" />
+        </mxCell>
+        <mxCell id="ed0" edge="1" parent="1" source="e0" target="and1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ed1" edge="1" parent="1" source="and1" target="fk">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ed2" edge="1" parent="1" source="and1" target="fl">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ed3" edge="1" parent="1" source="fk" target="ek">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ed4" edge="1" parent="1" source="fl" target="el">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ed5" edge="1" parent="1" source="ek" style="entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="WVxjbpDkKLrEa3Ephecc-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="230.21739130434776" y="523.4782608695652" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ed6" edge="1" parent="1" source="WVxjbpDkKLrEa3Ephecc-2" style="exitX=0;exitY=1;exitDx=0;exitDy=0;" target="e_on">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="210" y="570" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ed7" edge="1" parent="1" source="WVxjbpDkKLrEa3Ephecc-2" style="exitX=0.886;exitY=0.757;exitDx=0;exitDy=0;exitPerimeter=0;" target="e_late">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="258.6585365853657" y="577.560975609756" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ed8" edge="1" parent="1" source="e_on" target="e_ready">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ed9" edge="1" parent="1" target="e_ready">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="297.794117647059" y="740" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ed10" edge="1" parent="1" source="el" target="and2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ed11" edge="1" parent="1" source="and2" target="fc">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ed12" edge="1" parent="1" source="fc" target="e_out">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZChsOCvcIE1c1XZfRLzl-3" edge="1" parent="1" source="e_late" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="346" y="700" as="sourcePoint" />
+            <mxPoint x="338.3333333333335" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WVxjbpDkKLrEa3Ephecc-1" edge="1" parent="1" source="e_ready" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=-0.014;entryY=0.729;entryDx=0;entryDy=0;entryPerimeter=0;" target="and2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WVxjbpDkKLrEa3Ephecc-2" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FFFFFF;fontColor=#FFFFFF;strokeColor=#000000;" value="&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;И&lt;/font&gt;" vertex="1">
+          <mxGeometry height="70" width="70" x="190" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="WVxjbpDkKLrEa3Ephecc-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#97D077;strokeColor=#97D077;" value="Функция:&lt;br&gt;Отправка push уведомления" vertex="1">
+          <mxGeometry height="80" width="130" x="275" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="WVxjbpDkKLrEa3Ephecc-8" edge="1" parent="1" source="WVxjbpDkKLrEa3Ephecc-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="fk" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WVxjbpDkKLrEa3Ephecc-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fillColor=#FFD966;" value="Ресторан" vertex="1">
+          <mxGeometry height="60" width="120" x="165" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="WVxjbpDkKLrEa3Ephecc-11" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.977;entryY=0.9;entryDx=0;entryDy=0;entryPerimeter=0;" target="WVxjbpDkKLrEa3Ephecc-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="780" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WVxjbpDkKLrEa3Ephecc-10" edge="1" parent="1" source="WVxjbpDkKLrEa3Ephecc-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="fc" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WVxjbpDkKLrEa3Ephecc-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fillColor=#FFD966;" value="Курьер" vertex="1">
+          <mxGeometry height="60" width="120" x="690" y="930" as="geometry" />
+        </mxCell>
+        <mxCell id="WVxjbpDkKLrEa3Ephecc-13" edge="1" parent="1" source="WVxjbpDkKLrEa3Ephecc-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" target="fl">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WVxjbpDkKLrEa3Ephecc-12" parent="1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#7EA6E0;" value="Приложение" vertex="1">
+          <mxGeometry height="60" width="120" x="710" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="WVxjbpDkKLrEa3Ephecc-14" parent="1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#7EA6E0;" value="Приложение" vertex="1">
+          <mxGeometry height="60" width="120" x="360" y="780" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
