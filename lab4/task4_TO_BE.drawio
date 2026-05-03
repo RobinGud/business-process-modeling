@@ -1,0 +1,214 @@
+<mxfile host="app.diagrams.net" agent="Cursor" pages="2">
+  <diagram id="L1-TOBE" name="L1 TO BE">
+    <mxGraphModel dx="1798" dy="1246" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1800" pageHeight="1000" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="tobe_pool" parent="1" style="swimlane;html=1;startSize=34;horizontal=1;whiteSpace=wrap;container=1;recursiveResize=0;fontStyle=1" value="Платформа доставки еды — TO BE" vertex="1">
+          <mxGeometry height="420" width="1680" x="40" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tobe_s1" parent="tobe_pool" style="points=[[0.145,0.145,0],[0.5,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=standard;symbol=general;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="50" y="189" as="geometry" />
+        </mxCell>
+        <mxCell id="tobe_t_pay" parent="tobe_pool" style="rounded=1;whiteSpace=wrap;html=1;arcSize=6;fontSize=11;" value="Приём заказа&lt;br&gt;и оплата" vertex="1">
+          <mxGeometry height="68" width="120" x="110" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="tobe_t_sendr" parent="tobe_pool" style="rounded=1;whiteSpace=wrap;html=1;arcSize=6;fontSize=11;" value="Передача заказа&lt;br&gt;ресторану" vertex="1">
+          <mxGeometry height="68" width="140" x="260" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="tobe_gw_r" parent="tobe_pool" style="points=[[0.25,0.25,0],[0.5,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;gwType=exclusive;" value="" vertex="1">
+          <mxGeometry height="50" width="50" x="430" y="179" as="geometry" />
+        </mxCell>
+        <mxCell id="tobe_t_pick" parent="tobe_pool" style="rounded=1;whiteSpace=wrap;html=1;arcSize=6;fontSize=11;" value="Подбор и назначение&lt;br&gt;курьера" vertex="1">
+          <mxGeometry height="68" width="150" x="520" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="tobe_gw_c" parent="tobe_pool" style="points=[[0.25,0.25,0],[0.5,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;gwType=exclusive;" value="" vertex="1">
+          <mxGeometry height="50" width="50" x="710" y="179" as="geometry" />
+        </mxCell>
+        <mxCell id="tobe_t_deliv" parent="tobe_pool" style="rounded=1;whiteSpace=wrap;html=1;arcSize=6;fontSize=11;" value="Доставка&lt;br&gt;к клиенту" vertex="1">
+          <mxGeometry height="68" width="110" x="800" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="tobe_t_proof" parent="tobe_pool" style="rounded=1;whiteSpace=wrap;html=1;arcSize=6;fontSize=11;fillColor=#FAFAFA;strokeColor=#000000;" value="Подтверждённое вручение&lt;br&gt;(код / фото / метаданные)" vertex="1">
+          <mxGeometry height="68" width="170" x="940" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="tobe_gw_h" parent="tobe_pool" style="points=[[0.25,0.25,0],[0.5,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;gwType=exclusive;" value="" vertex="1">
+          <mxGeometry height="50" width="50" x="1140" y="179" as="geometry" />
+        </mxCell>
+        <mxCell id="tobe_t_close" parent="tobe_pool" style="rounded=1;whiteSpace=wrap;html=1;arcSize=6;fontSize=11;fillColor=#FAFAFA;strokeColor=#000000;" value="Закрытие: списание,&lt;br&gt;чек, архив вручения&lt;br&gt;90 суток" vertex="1">
+          <mxGeometry height="76" width="150" x="1230" y="166" as="geometry" />
+        </mxCell>
+        <mxCell id="tobe_end_ok" parent="tobe_pool" style="points=[[0.145,0.145,0],[0.5,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=terminate2;" value="" vertex="1">
+          <mxGeometry height="28" width="28" x="1410" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="tobe_t_cancel" parent="tobe_pool" style="rounded=1;whiteSpace=wrap;html=1;arcSize=6;fontSize=11;fillColor=#F5F5F5;" value="Отмена / возврат&lt;br&gt;клиенту" vertex="1">
+          <mxGeometry height="56" width="130" x="180" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="tobe_end_cancel1" parent="tobe_pool" style="points=[[0.145,0.145,0],[0.5,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=cancel;" value="" vertex="1">
+          <mxGeometry height="28" width="28" x="50" y="314" as="geometry" />
+        </mxCell>
+        <mxCell id="tobe_t_esc" parent="tobe_pool" style="rounded=1;whiteSpace=wrap;html=1;arcSize=6;fontSize=11;fillColor=#FAFAFA;strokeColor=#000000;" value="Эскалация / отмена&lt;br&gt;по политике" vertex="1">
+          <mxGeometry height="56" width="180" x="1025" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="tobe_end_cancel2" parent="tobe_pool" style="points=[[0.145,0.145,0],[0.5,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=cancel;" value="" vertex="1">
+          <mxGeometry height="28" width="28" x="1250" y="314" as="geometry" />
+        </mxCell>
+        <mxCell id="e_tobe_1" edge="1" parent="tobe_pool" source="tobe_s1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=0;" target="tobe_t_pay">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_tobe_2" edge="1" parent="tobe_pool" source="tobe_t_pay" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=0;" target="tobe_t_sendr">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_tobe_3" edge="1" parent="tobe_pool" source="tobe_t_sendr" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="tobe_gw_r">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_tobe_4" edge="1" parent="tobe_pool" source="tobe_gw_r" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=0;fontSize=9;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" target="tobe_t_pick" value="да">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_tobe_5" edge="1" parent="tobe_pool" source="tobe_gw_r" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=0;fontSize=9;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" target="tobe_t_cancel" value="нет">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_tobe_6" edge="1" parent="tobe_pool" source="tobe_t_cancel" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=0;" target="tobe_end_cancel1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_tobe_7" edge="1" parent="tobe_pool" source="tobe_t_pick" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="tobe_gw_c">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_tobe_8" edge="1" parent="tobe_pool" source="tobe_gw_c" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=0;fontSize=9;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" target="tobe_t_deliv" value="да">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_tobe_9" edge="1" parent="tobe_pool" source="tobe_gw_c" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=0;fontSize=9;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" target="tobe_t_pick" value="нет → эскалация">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="735" y="120" />
+              <mxPoint x="595" y="120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_tobe_10" edge="1" parent="tobe_pool" source="tobe_t_deliv" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=0;" target="tobe_t_proof">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_tobe_11" edge="1" parent="tobe_pool" source="tobe_t_proof" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="tobe_gw_h">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_tobe_12" edge="1" parent="tobe_pool" source="tobe_gw_h" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=0;fontSize=9;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" target="tobe_t_close" value="да">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_tobe_13" edge="1" parent="tobe_pool" source="tobe_gw_h" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=0;fontSize=9;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" target="tobe_t_esc" value="нет">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_tobe_14" edge="1" parent="tobe_pool" source="tobe_t_close" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=0;" target="tobe_end_ok">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_tobe_15" edge="1" parent="tobe_pool" source="tobe_t_esc" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=0;" target="tobe_end_cancel2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="L2-4" name="L2-4 Compliance и вручение">
+    <mxGraphModel dx="1798" dy="1246" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="l24_p1" parent="1" style="swimlane;html=1;startSize=28;fontStyle=1;horizontal=1;container=1;recursiveResize=0;" value="L2-4a: Подтверждение вручения" vertex="1">
+          <mxGeometry height="320" width="1160" x="40" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="l24_h1" parent="l24_p1" style="points=[[0.145,0.145,0],[0.5,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=standard;symbol=general;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="80" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="l24_a1" parent="l24_p1" style="rounded=1;whiteSpace=wrap;html=1;" value="Проверка канала&lt;br&gt;подтверждения&lt;br&gt;(приложение)" vertex="1">
+          <mxGeometry height="68" width="140" x="150" y="121" as="geometry" />
+        </mxCell>
+        <mxCell id="l24_a2" parent="l24_p1" style="rounded=1;whiteSpace=wrap;html=1;" value="Запрос подтверждения&lt;br&gt;у клиента (код / кнопка)" vertex="1">
+          <mxGeometry height="68" width="160" x="330" y="121" as="geometry" />
+        </mxCell>
+        <mxCell id="l24_a3" parent="l24_p1" style="rounded=1;html=1;fillColor=#FCFCFC;" value="Ожидание ответа&lt;br&gt;T мин" vertex="1">
+          <mxGeometry height="56" width="120" x="530" y="127" as="geometry" />
+        </mxCell>
+        <mxCell id="l24_gw1" parent="l24_p1" style="points=[[0.25,0.25,0],[0.5,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;gwType=exclusive;" value="" vertex="1">
+          <mxGeometry height="50" width="50" x="690" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="l24_a4" parent="l24_p1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;" value="Зафиксировать акт вручения" vertex="1">
+          <mxGeometry height="68" width="200" x="780" y="121" as="geometry" />
+        </mxCell>
+        <mxCell id="l24_a5" parent="l24_p1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;" value="Зафиксировать попытку,&lt;br&gt;эскалация / отмена" vertex="1">
+          <mxGeometry height="56" width="180" x="625" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="l24_e1" parent="l24_p1" style="points=[[0.145,0.145,0],[0.5,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=terminate2;" value="" vertex="1">
+          <mxGeometry height="29" width="29" x="1020" y="140.5" as="geometry" />
+        </mxCell>
+        <mxCell id="l24_e2" parent="l24_p1" style="points=[[0.145,0.145,0],[0.5,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=cancel;" value="" vertex="1">
+          <mxGeometry height="29" width="29" x="1020" y="243.5" as="geometry" />
+        </mxCell>
+        <mxCell id="le1" edge="1" parent="l24_p1" source="l24_h1" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=0;" target="l24_a1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="le2" edge="1" parent="l24_p1" source="l24_a1" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=0;" target="l24_a2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="le3" edge="1" parent="l24_p1" source="l24_a2" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=0;" target="l24_a3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="le4" edge="1" parent="l24_p1" source="l24_a3" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="l24_gw1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="le5" edge="1" parent="l24_p1" source="l24_gw1" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=0;fontSize=9;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" target="l24_a4" value="да">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="le6" edge="1" parent="l24_p1" source="l24_gw1" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=0;fontSize=9;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" target="l24_a5" value="нет / тайм-аут">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="le7" edge="1" parent="l24_p1" source="l24_a4" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=0;" target="l24_e1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="le8" edge="1" parent="l24_p1" source="l24_a5" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=0;" target="l24_e2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l24_p2" parent="1" style="swimlane;html=1;startSize=28;fontStyle=1;horizontal=1;container=1;recursiveResize=0;" value="L2-4b: Мониторинг массовых отмен и отчёт надзору" vertex="1">
+          <mxGeometry height="280" width="900" x="40" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="l24_b1" parent="l24_p2" style="points=[[0.145,0.145,0],[0.5,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=standard;symbol=general;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="80" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="l24_b2" parent="l24_p2" style="rounded=1;whiteSpace=wrap;html=1;" value="Агрегация % отмен&lt;br&gt;по региону за сутки" vertex="1">
+          <mxGeometry height="68" width="180" x="150" y="101" as="geometry" />
+        </mxCell>
+        <mxCell id="l24_bgw" parent="l24_p2" style="points=[[0.25,0.25,0],[0.5,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;gwType=exclusive;" value="" vertex="1">
+          <mxGeometry height="50" width="50" x="380" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="l24_b3" parent="l24_p2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;" value="Сформировать и отправить&lt;br&gt;отчёт (дедлайн ≤24 ч)" vertex="1">
+          <mxGeometry height="68" width="240" x="480" y="101" as="geometry" />
+        </mxCell>
+        <mxCell id="lbl_t" parent="l24_p2" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=10;fontColor=#666666;" value="При превышении порога по регламенту" vertex="1">
+          <mxGeometry height="24" width="280" x="480" y="186" as="geometry" />
+        </mxCell>
+        <mxCell id="leb1" edge="1" parent="l24_p2" source="l24_b1" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=0;" target="l24_b2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="leb2" edge="1" parent="l24_p2" source="l24_b2" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="l24_bgw">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="leb3" edge="1" parent="l24_p2" source="l24_bgw" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=0;fontSize=9;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" target="l24_b3" value="порог превышен">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="leb4" edge="1" parent="l24_p2" source="l24_b3" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=0;dashed=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=9;" target="l24_b2" value="цикл мониторинга">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="750" y="135" />
+              <mxPoint x="750" y="50" />
+              <mxPoint x="240" y="50" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="leb7" edge="1" parent="l24_p2" source="l24_bgw" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=0;dashed=1;fontSize=9;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" target="l24_b2" value="нет">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="405" y="250" />
+              <mxPoint x="240" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
